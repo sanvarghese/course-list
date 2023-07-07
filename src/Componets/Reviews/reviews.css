@@ -1,0 +1,14 @@
+.reviews-sect {
+    padding: 70px 0;
+}
+
+.reviews-sect h2 {
+    margin-bottom: 25px;
+}
+
+.item {
+    background-color: aliceblue;
+    padding: 40px 20px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}

@@ -1,0 +1,15 @@
+.banner h1 {
+    text-align: center;
+    color: white;
+}
+
+.banner {
+    background-image: url(/public/images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,18 @@
+.course-wrapper {
+    padding: 50px 0;
+}
+
+.course-wrapper h2 {
+    margin-bottom: 30px;
+}
+
+.course-wrapper .item {
+    background-color: rgb(240, 240, 240);
+    padding: 50px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.course-wrapper .item h3 {
+    text-align: center;
+}

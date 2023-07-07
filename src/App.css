@@ -32,7 +32,16 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+#category-lis {
+  margin: 30px 0;
+}
+
+.item-label {
+  margin-bottom: 20px;
 }
