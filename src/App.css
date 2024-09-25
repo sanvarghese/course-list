@@ -43,5 +43,57 @@
 }
 
 .item-label {
-  margin-bottom: 20px;
+  margin: 15px 0;
+}
+
+.delete-btn {
+  background-color: brown;
+  color: white;
+  border-radius: 8px;
+  padding: 10px 15px;
+  border: none;
+  margin: 0 5px;
+}
+
+.edit-btn {
+  background-color: green;
+  border-radius: 8px;
+  padding: 10px 15px;
+  border: none;
+  color: white;
+  margin: 0 5px;
+}
+
+.add-btn {
+  background-color: rgb(0, 115, 164);
+  border-radius: 8px;
+  padding: 10px 15px;
+  border: none;
+  color: white;
+  margin: 0 5px;
+}
+
+.item-container {
+  background-color: #e6e6e6;
+  border-radius: 15px;
+  padding: 50px 30px;
+  margin: 15px 0;
+}
+
+#category-list {
+  padding: 8px 10px;
+  border-radius: 8px;
+  background-color: rgb(0, 115, 164);
+  margin: 12px 0;
+  color: white;
+}
+
+.add-course-section {
+  /* background-color: rgb(243, 243, 243); */
+}
+
+.add-course-section .add-course-wrapper {
+  background-color: rgb(243, 243, 243);
+  border-radius: 15px;
+  padding: 50px 30px;
 }

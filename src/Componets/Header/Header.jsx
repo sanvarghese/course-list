@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./header.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -15,9 +16,9 @@ const Header = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/">Home Page</Nav.Link>
-            <Nav.Link href="/Course-page">Course Page</Nav.Link>
-            <Nav.Link href="/About-us-page">About Us Page</Nav.Link>
+            <Link to="/">Home Page</Link>
+            <Link to="/course">Course Page</Link>
+            <Link to="/about">About Us Page</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

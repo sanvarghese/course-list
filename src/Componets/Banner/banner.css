@@ -1,6 +1,7 @@
 .banner h1 {
     text-align: center;
     color: white;
+    text-shadow: 3px 3px 3px rgb(38, 38, 38);
 }
 
 .banner {

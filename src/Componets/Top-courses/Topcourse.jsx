@@ -1,16 +1,15 @@
-import React, { useState } from "react";
-import { CourseData } from "../../Db/Data";
+import React, { useContext, useState } from "react";
+// import { CourseData } from "../../Db/Data";
 import { Container, Col, Row } from "react-bootstrap";
 import "./top-course.css";
 import { Rating } from "@mui/material";
+import { CourseDataContext } from "../../Db/Data";
 
 const Topcourse = () => {
-  // console.log(Data);
+  const { CourseData } = useContext(CourseDataContext);
   const newcoursedata = [...CourseData].sort((a, b) => b.rating - a.rating);
   const topTwoData = newcoursedata.slice(0, 2);
-
   console.log(topTwoData);
-  // console.log(numAscending);
 
   return (
     <div className="course-wrapper">
